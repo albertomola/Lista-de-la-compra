@@ -14,6 +14,8 @@
 		D325968C2BEBEB6E00633F69 /* Lista_de_la_compraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D325968B2BEBEB6E00633F69 /* Lista_de_la_compraTests.swift */; };
 		D32596962BEBEB6E00633F69 /* Lista_de_la_compraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32596952BEBEB6E00633F69 /* Lista_de_la_compraUITests.swift */; };
 		D32596982BEBEB6E00633F69 /* Lista_de_la_compraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32596972BEBEB6E00633F69 /* Lista_de_la_compraUITestsLaunchTests.swift */; };
+		D3266E162BED0EB400F7CDF2 /* InicioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3266E152BED0EB400F7CDF2 /* InicioView.swift */; };
+		D3266E182BED3ECB00F7CDF2 /* ListaCompraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3266E172BED3ECB00F7CDF2 /* ListaCompraModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D32596912BEBEB6E00633F69 /* Lista de la compraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lista de la compraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32596952BEBEB6E00633F69 /* Lista_de_la_compraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_de_la_compraUITests.swift; sourceTree = "<group>"; };
 		D32596972BEBEB6E00633F69 /* Lista_de_la_compraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_de_la_compraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3266E152BED0EB400F7CDF2 /* InicioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioView.swift; sourceTree = "<group>"; };
+		D3266E172BED3ECB00F7CDF2 /* ListaCompraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCompraModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				D325967C2BEBEB6800633F69 /* ContentView.swift */,
 				D325967E2BEBEB6D00633F69 /* Assets.xcassets */,
 				D32596802BEBEB6D00633F69 /* Preview Content */,
+				D3266E152BED0EB400F7CDF2 /* InicioView.swift */,
+				D3266E172BED3ECB00F7CDF2 /* ListaCompraModel.swift */,
 			);
 			path = "Lista de la compra";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D325967D2BEBEB6800633F69 /* ContentView.swift in Sources */,
+				D3266E182BED3ECB00F7CDF2 /* ListaCompraModel.swift in Sources */,
+				D3266E162BED0EB400F7CDF2 /* InicioView.swift in Sources */,
 				D325967B2BEBEB6800633F69 /* Lista_de_la_compraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
